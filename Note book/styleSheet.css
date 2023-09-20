@@ -1,0 +1,144 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*screen*/
+
+.total_screen {
+  width: 100%;
+  height: 100%;
+}
+
+/*header*/
+
+.header {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5%;
+  gap: 2%;
+}
+
+h1,
+h2 {
+  font-size: 400%;
+}
+
+/*note_book*/
+
+.note_book {
+  width: 100%;
+  height: 66%;
+  display: flex;
+  flex-direction: row;
+}
+
+/*note_list*/
+
+.note_list {
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+}
+
+.note_list_header {
+  width: 60%;
+  height: auto;
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: end;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.notes {
+  width: 75%;
+  height: 100%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding-right: 5%;
+  gap: 5%;
+}
+
+.li_list {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.remove_btn {
+  color: red;
+  font-weight: bolder;
+  float: left;
+
+}
+
+.remove_btn:hover {
+  cursor: pointer;
+}
+
+
+/*input_note*/
+
+.input {
+  width: 50%;
+  height: 100%;
+  margin-right: auto;
+}
+
+.new_input {
+  width: 60%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: larger;
+}
+
+.new_note {
+  text-align: start;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.note_book_input {
+  width: 100%;
+  padding: 4%;
+  border-style: groove;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: deepskyblue;
+  font-size: larger;
+}
+
+.input_btn {
+  width: 60%;
+  height: auto;
+  padding: 1.5%;
+  background-color: deepskyblue;
+  color: white;
+  border-style: solid;
+  border-color: deepskyblue;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.input_btn:hover {
+  background-color: rgb(0, 172, 229);
+  border-color: rgb(0, 172, 229);
+  cursor: pointer;
+}
